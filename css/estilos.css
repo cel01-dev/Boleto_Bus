@@ -1,0 +1,97 @@
+.container {
+    max-width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    display: grid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+  
+  .form1 {
+    float: left;
+    width: 550px;
+    height: 400px;
+    background-color: #fff; /* Color para el primer formulario */
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.form2 {
+    float: left;
+    width: 240px;
+    height: 400px;
+    background-color: #fff; /* Color para el segundo formulario */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+}
+
+  .double-space {
+    flex: 2; /* Esta frase ocupará el doble de espacio */
+  }
+  
+  .custom-form {
+    background-color: #fff; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .empresa{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+
+  .inputs{
+    border-style: none;
+    padding: 0px;
+    width: 80%;
+  }
+  
+ .info{
+    width: calc(100% - 100px);
+    padding: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #801F1E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #73141B;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 13px;
+}
+th {
+    background-color: #F9EFD4;
+}
+

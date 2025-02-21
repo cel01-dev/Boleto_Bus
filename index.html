@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<div class="container">
+    <form action="#" method="POST" class="custom-form">
+        <div class="form1">
+            <label class="empresa">SOYUZ.S.Z.</label>
+            <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input class="info" type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido:</label>
+            <input class="info" type="text" id="apellido" name="apellido" required>
+            </div>
+            <table>
+                <tr>
+                    <th colspan="3">ORIGEN</th>
+                    <th colspan="3">DESTINO</th>
+                    <th colspan="2">DETALLES</th>
+                </tr>
+                <tr>
+                    <td>LIMA</td>
+                    <td>0</td>
+                    <td>
+                        <input type="radio" id="OriLima" value="OriLima" name="opcion">
+                    </td>
+                    <td>ASIA</td>
+                    <td>3</td>
+                    <td>
+                        <input type="radio" id="DesAsia" value="DesAsia" name="opcion1">
+                    </td>
+                    <th>N° DE ASIENTO</th>
+                    <td>
+                        <input class="inputs" type="number" id="asiento" name="asiento" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ASIA</td>
+                    <td>3</td>
+                    <td>
+                        <input type="radio" id="OriAsia" value="OriAsia" name="opcion">
+                    </td>
+                    <td>CAÑETE</td>
+                    <td>4</td>
+                    <td>
+                        <input type="radio" id="DesCañete" value="DesCañete" name="opcion1">
+                    </td>
+                    <th>HORA DE SALIDA</th>
+                    <td>
+                        <input class="inputs" type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td>CAÑETE</td>
+                    <td>4</td>
+                    <td>
+                        <input type="radio" id="OriCañete" value="OriCañete" name="opcion">
+                    </td>
+                    <td>CHINCHA</td>
+                    <td>6</td>
+                    <td>
+                        <input type="radio" id="DesChincha" value="DesChincha" name="opcion1">
+                    </td>
+                    <th>Fila 6, Columna 7</th>
+                    <td>
+                        <input class="inputs" type="text">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>CHINCHA</td>
+                    <td>6</td>
+                    <td>
+                        <input type="radio" id="OriChincha" value="OriChincha" name="opcion">
+                    </td>
+                    <td>C. PISCO</td>
+                    <td>7</td>
+                    <td>
+                        <input type="radio" id="DesPisco" value="DesPisco" name="opcion1">
+                    </td>
+                    <th>Fila 7, Columna 7</th>
+                    <td>
+                        <input class="inputs" type="text">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>C. PISCO</td>
+                    <td>7</td>
+                    <td>
+                        <input type="radio" id="OriPisco" value="OriPisco" name="opcion">
+                    </td>
+                    <td>ICA</td>
+                    <td>8</td>
+                    <td>
+                        <input type="radio" id="DesIca" value="DesIca" name="opcion1">
+                    </td>
+                    <th>TOTAL</th>
+                    <td>
+                        <input class="inputs" type="number">
+                    </td>
+                </tr>
+            </table>
+            <div class="form-group">
+                <button type="submit">Realizar venta</button>
+            </div>
+        </div>
+
+        <div class="form2">
+            <table>
+                <tr>
+                    <th>R.U.C. 20100023203</th>
+                </tr>
+                <tr>
+                    <th>BOLETO DE VIAJE</th>
+                </tr>
+                <tr>
+                    <td>875 N°251536</td>
+                </tr>
+            </table>
+            <label class="empresa">SOYUZ S.Z.</label>
+            <table>
+                <tr>
+                    <th>ORIGEN</th>
+                    <th>DESTINO</th>
+                    <th colspan="2">N° DE ASIENTOS</th>
+                  </tr>
+                  <tr>
+                    <td>Fila 1</td>
+                    <td>Fila 1</td>
+                    <td colspan="2">Fila 1</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">HORA DE SALIDA</th>
+                    <th colspan="2">Fila 2</th>
+                  </tr>
+                  <tr>
+                    <td colspan="2">Fila 3</td>
+                    <td colspan="2">Fila 3</td>
+                  </tr>
+                  <tr>
+                    <th colspan="4">TOTAL S/.</th>
+                  </tr>
+                  <tr>
+                    <td colspan="4">Fila 5</td>
+                  </tr>
+        </div>
+    </form>
+</div>
+</body>
+</html>
